@@ -8,5 +8,10 @@
     <artifactId>spring-cloud-simple</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>spring-boot-hello-word</module>
+        <module>spring-cloud-config-server</module>
+
+    </modules>
 
 </project>
