@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xjtushilei</groupId>
-    <artifactId>spring-cloud-config-server</artifactId>
+    <artifactId>spring-cloud-eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-cloud-config-server</name>
+    <name>spring-cloud-eureka-server</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -17,15 +17,15 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
-    <dependencies>
 
+
+    <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
 
     </dependencies>
-
 
 
 </project>
