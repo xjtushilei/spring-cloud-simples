@@ -15,7 +15,8 @@
 - config-server : 8888
 - config-client : 8082
 - eureka-server : 8761，8762
-- eureka-client : 8083
+- eureka-client : 8083,8084,8085 （构建负载均衡集群）
+- eureka-consumer : 8086 （用来消费 eureka-client 提供的服务）
 
 
 ## 依赖说明 
@@ -29,3 +30,4 @@
 
 > 1. [spring-cloud-config:分布式配置管理](http://www.xjtushilei.com/2017/06/12/spring-cloud-series-spring-cloud-config)
 > 2. [spring-cloud-eureka:服务注册与发现](http://www.xjtushilei.com/2017/06/13/spring-cloud-series-spring-cloud-eureka)
+> 3. [spring-cloud-eureka-consumer:远程服务调用和及其负载均衡](http://www.xjtushilei.com/2017/06/13/spring-cloud-series-spring-cloud-eureka-consumer)
