@@ -20,6 +20,6 @@ public class HelloRemoteService {
     }
 
     public String fallback() {
-        return "随机数小小于8，表示将要熔断！这是熔断器的降级方法。";
+        return "这是熔断器的降级方法。";
     }
 }
