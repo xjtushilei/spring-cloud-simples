@@ -12,7 +12,7 @@
     ```
 ## 端口
 
-- config-server : 8888
+- config-server : 8888,8887,8886
 - config-client : 8082
 - eureka-server : 8761，8762
 - eureka-client : 8083,8084,8085 （构建负载均衡集群）
