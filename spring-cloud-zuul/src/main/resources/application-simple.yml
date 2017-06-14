@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: gateway-service-zuul
+zuul:
+  routes:
+    name1:
+      path: /test/*
+      url: http://www.xjtushilei.com
+
+
